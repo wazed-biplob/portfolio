@@ -69,8 +69,15 @@ main {
     margin:0 auto;
     margin-top:130px;
 }
+section {
+    margin-top:130px;
+}
 /* About Section Styles */
-
+.what-i-do {
+    margin-top:130px;
+    font-weight: 700;
+    font-size: 35px;
+}
 .about  {
     margin-top:130px;
     background: #FFF8F3;
@@ -81,7 +88,9 @@ main {
 
 .section-title {
     text-align: center;
-    margin-bottom:30px;
+    margin-bottom:50px;
+    font-weight: 700;
+    font-size: 35px;
 }
 
 .section-description {
@@ -104,3 +113,27 @@ main {
     font-weight: 700;
     font-size:20px;
 }
+/* What I do Styles */
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.skill-container {
+    display:flex;
+    gap:24px;
+}
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color:#757575;
+}
+/* Summary of my resume */
