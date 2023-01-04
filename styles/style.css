@@ -137,3 +137,37 @@ section {
     color:#757575;
 }
 /* Summary of my resume */
+.resume-content {
+    display:flex;
+    gap:40px;
+}
+
+.resume .resume-title {
+    color:#474747;
+    font-size:30px;
+    font-weight: 700;
+}
+.resume .title {
+    color:#474747;
+    font-size:25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume .sub-title {
+    color:#757575;
+    font-size:20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume .description {
+    color:#757575;
+    font-size:16px;
+    font-weight: 400;
+}
+.resume-item {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.resume-button {
+    text-align: center;
+}
